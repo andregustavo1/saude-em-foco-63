@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about" className="section-container">
       <div className="animate-on-scroll">
-        <h2 className="section-title mb-16">Sobre Nós</h2>
+        <h2 className="section-title mb-16">Sobre a Dra.</h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-lg overflow-hidden shadow-lg">
@@ -30,7 +30,7 @@ const About = () => {
               oferecendo acompanhamento contínuo e adaptado às necessidades individuais.
             </p>
             
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="flex items-start gap-3">
                 <div className="text-orange p-2 bg-orange/10 rounded-full">
                   <Heart size={24} />

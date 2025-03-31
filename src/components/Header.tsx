@@ -40,13 +40,13 @@ const Header = () => {
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled 
-          ? 'bg-white/95 backdrop-blur-sm shadow-md py-3' 
-          : 'bg-transparent py-5'
+          ? 'bg-white/95 backdrop-blur-sm shadow-md py-3 text-foreground' 
+          : 'bg-transparent py-5 text-white'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <h1 className="text-xl md:text-2xl font-bold text-gradient">
+          <h1 className={`text-xl md:text-2xl font-bold ${scrolled ? 'text-gradient' : 'text-white'}`}>
             Dra. Adriana Andrade
           </h1>
         </div>
@@ -54,31 +54,31 @@ const Header = () => {
         <nav className="hidden md:flex space-x-8">
           <button
             onClick={() => scrollToSection('about')}
-            className="text-foreground hover:text-brown transition-colors"
+            className={`hover:text-brown transition-colors`}
           >
             Sobre
           </button>
           <button
             onClick={() => scrollToSection('why-choose')}
-            className="text-foreground hover:text-brown transition-colors"
+            className={`hover:text-brown transition-colors`}
           >
             Diferenciais
           </button>
           <button
             onClick={() => scrollToSection('services')}
-            className="text-foreground hover:text-brown transition-colors"
+            className={`hover:text-brown transition-colors`}
           >
             Especialidades
           </button>
           <button
             onClick={() => scrollToSection('process')}
-            className="text-foreground hover:text-brown transition-colors"
+            className={`hover:text-brown transition-colors`}
           >
             Atendimento
           </button>
           <button
             onClick={() => scrollToSection('contact')}
-            className="text-foreground hover:text-brown transition-colors"
+            className={`hover:text-brown transition-colors`}
           >
             Contato
           </button>
@@ -86,7 +86,11 @@ const Header = () => {
         
         <Button 
           onClick={handleWhatsAppClick}
-          className="bg-gradient-primary text-white flex items-center gap-2"
+          className={`flex items-center gap-2 ${
+            scrolled 
+              ? 'bg-gradient-primary text-white' 
+              : 'bg-white text-brown hover:bg-white/90'
+          }`}
         >
           <Phone size={18} />
           <span className="hidden sm:inline">Agendar Consulta</span>
