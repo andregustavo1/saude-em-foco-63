@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Weight, Activity, Thermometer, Pill, Vitamin } from 'lucide-react';
+import { Weight, Activity, Thermometer, Pill, Apple } from 'lucide-react';
 
 const Services = () => {
   return (
@@ -75,7 +75,7 @@ const Services = () => {
           
           <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row md:items-center gap-6 card-hover">
             <div className="bg-orange/10 p-5 rounded-full flex-shrink-0 mx-auto md:mx-0">
-              <Vitamin className="h-10 w-10 text-orange" />
+              <Apple className="h-10 w-10 text-orange" />
             </div>
             <div>
               <h3 className="font-semibold text-xl mb-2 text-brown text-center md:text-left">
