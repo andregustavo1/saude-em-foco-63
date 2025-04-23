@@ -68,7 +68,7 @@ const Header = () => {
             onClick={() => scrollToSection('services')}
             className={`hover:text-brown transition-colors`}
           >
-            Especialidades
+            Tratamentos
           </button>
           <button
             onClick={() => scrollToSection('process')}

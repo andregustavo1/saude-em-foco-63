@@ -10,10 +10,8 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-brown/80 to-orange/70 mix-blend-multiply z-10"></div>
       
-      {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{ 
@@ -25,10 +23,10 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-20 pt-24 animate-fade-in">
         <div className="max-w-2xl text-white">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 animate-slide-up">
-            Cuidado Especializado para sua Saúde Metabólica
+            Cuidado Especializado para sua Saúde
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90 animate-slide-up" style={{animationDelay: '0.2s'}}>
-            Tratamentos personalizados para obesidade, diabetes e distúrbios hormonais
+            Tratamento personalizado para diabetes, hipertensão, obesidade e distúrbios da tireoide
           </p>
           <Button 
             onClick={handleWhatsAppClick}

@@ -11,11 +11,27 @@ const Services = () => {
         <div className="space-y-8">
           <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row md:items-center gap-6 card-hover">
             <div className="bg-orange/10 p-5 rounded-full flex-shrink-0 mx-auto md:mx-0">
+              <Activity className="h-10 w-10 text-orange" />
+            </div>
+            <div>
+              <h3 className="font-semibold text-xl mb-2 text-brown text-center md:text-left">
+                Diabetes
+              </h3>
+              <p className="text-gray-600 text-center md:text-left">
+                Gerenciamento eficaz do diabetes com monitoramento personalizado, ajuste medicamentoso 
+                e orientações para controle glicêmico. Prevenção de complicações e melhoria da 
+                qualidade de vida.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row md:items-center gap-6 card-hover">
+            <div className="bg-orange/10 p-5 rounded-full flex-shrink-0 mx-auto md:mx-0">
               <Weight className="h-10 w-10 text-orange" />
             </div>
             <div>
               <h3 className="font-semibold text-xl mb-2 text-brown text-center md:text-left">
-                Tratamento da Obesidade
+                Obesidade
               </h3>
               <p className="text-gray-600 text-center md:text-left">
                 Abordagem personalizada para perda de peso saudável e sustentável, com acompanhamento 
@@ -31,12 +47,12 @@ const Services = () => {
             </div>
             <div>
               <h3 className="font-semibold text-xl mb-2 text-brown text-center md:text-left">
-                Controle do Diabetes
+                Hipertensão Arterial
               </h3>
               <p className="text-gray-600 text-center md:text-left">
-                Gerenciamento eficaz do diabetes com monitoramento personalizado, ajuste medicamentoso 
-                e orientações para controle glicêmico. Prevenção de complicações e melhoria da 
-                qualidade de vida.
+                Controle e acompanhamento da pressão arterial com foco na prevenção de complicações 
+                cardiovasculares. Tratamento personalizado com orientações sobre estilo de vida e 
+                medicação quando necessário.
               </p>
             </div>
           </div>
@@ -47,28 +63,11 @@ const Services = () => {
             </div>
             <div>
               <h3 className="font-semibold text-xl mb-2 text-brown text-center md:text-left">
-                Tratamento de Patologias Tireoidianas
+                Doenças da Tireoide
               </h3>
               <p className="text-gray-600 text-center md:text-left">
-                Diagnóstico e tratamento de condições da tireoide, como hipotireoidismo, 
-                hipertireoidismo e nódulos tireoidianos. Equilíbrio hormonal para restabelecer 
-                bem-estar e energia.
-              </p>
-            </div>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row md:items-center gap-6 card-hover">
-            <div className="bg-orange/10 p-5 rounded-full flex-shrink-0 mx-auto md:mx-0">
-              <Pill className="h-10 w-10 text-orange" />
-            </div>
-            <div>
-              <h3 className="font-semibold text-xl mb-2 text-brown text-center md:text-left">
-                Reposição Hormonal
-              </h3>
-              <p className="text-gray-600 text-center md:text-left">
-                Terapia de reposição hormonal personalizada, com segurança e eficácia. 
-                Alívio de sintomas da menopausa, andropausa e outras condições de desequilíbrio 
-                hormonal.
+                Diagnóstico e tratamento de condições da tireoide. Equilíbrio hormonal para 
+                restabelecer bem-estar e energia.
               </p>
             </div>
           </div>
@@ -79,12 +78,11 @@ const Services = () => {
             </div>
             <div>
               <h3 className="font-semibold text-xl mb-2 text-brown text-center md:text-left">
-                Suplementação de Vitaminas e Minerais
+                Orientação Nutricional
               </h3>
               <p className="text-gray-600 text-center md:text-left">
-                Avaliação de deficiências nutricionais e recomendação de suplementação 
-                adequada. Correção de carências para otimizar a saúde metabólica e 
-                funcionamento do organismo.
+                Acompanhamento nutricional personalizado, com foco em alimentação saudável e 
+                sustentável. Orientações específicas para cada condição de saúde.
               </p>
             </div>
           </div>
