@@ -21,8 +21,8 @@ const About = () => {
             <h3 className="section-subtitle text-3xl mb-4">Dra. Adriana Andrade</h3>
             <p className="text-gray-700 mb-6">
               Médica com mais de 20 anos de experiência, dedicada ao tratamento personalizado 
-              e humanizado de pacientes com comorbidades crônicas. Professora de Endocrinologia 
-              na Faculdade de Medicina Multivix Cachoeiro.
+              e humanizado de pacientes com comorbidades crônicas. Professora na Faculdade 
+              de Medicina Multivix Cachoeiro.
             </p>
             <p className="text-gray-700 mb-8">
               Comprometida com resultados duradouros e melhoria da qualidade de vida, 

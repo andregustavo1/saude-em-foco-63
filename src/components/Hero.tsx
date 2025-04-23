@@ -26,7 +26,7 @@ const Hero = () => {
             Cuidado Especializado para sua Saúde
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90 animate-slide-up" style={{animationDelay: '0.2s'}}>
-            Tratamento personalizado para diabetes, hipertensão, obesidade e distúrbios da tireoide
+            Tratamento personalizado para diabetes, hipertensão, obesidade e saúde da tireoide
           </p>
           <Button 
             onClick={handleWhatsAppClick}
